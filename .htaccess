@@ -1,0 +1,11 @@
+# Protect wp-config.php
+<Files wp-config.php>
+	Order Allow,Deny
+	Deny from all
+</Files>
+
+# Protect wp-config-local.php
+<Files wp-config-local.php>
+	Order Allow,Deny
+	Deny from all
+</Files>
